@@ -1,0 +1,71 @@
+
+  header {
+    background-image: url('/public/img/comidavdd1.jpg');
+    background-size: cover;
+   height: 450px;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  .img {
+    width: 10%;
+  }
+  
+  .icones {
+    float: right;
+    display: flex;
+    margin-right: 5%;
+    align-self: center;
+    gap: 25;
+    margin-top: 38px;
+  }
+  
+  .icones a:not(:last-child) img {
+    margin-right: 15px;
+  }
+  
+  nav {
+    display: flex;
+     align-items: center;
+    }
+  
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+  
+  }
+  nav li {
+    margin-right: 20px;
+    position: relative;
+    margin-top: 1%;
+
+    
+  }
+  nav a {
+    display: block;
+    padding: 5px 10px;
+    color: #d1c6b8;
+    text-decoration: none;
+  }
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  nav ul ul li {
+    margin-right: 0;
+    width: 200px;
+  }
+  nav li:hover > ul {
+    display: inherit;
+  }
+  
