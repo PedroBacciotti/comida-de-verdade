@@ -5,8 +5,9 @@
    height: 450px;
   }
 
+  
   body {
-    background-color: black;
+    background-color: rgb(255, 231, 231);
   }
 
   .img {
@@ -16,10 +17,9 @@
   .icones {
     float: right;
     display: flex;
-    margin-right: 5%;
-    align-self: center;
+    margin-left: 19%;
     gap: 25;
-    margin-top: 38px;
+    margin-top: 23px;
   }
   
   .icones a:not(:last-child) img {
@@ -68,4 +68,58 @@
   nav li:hover > ul {
     display: inherit;
   }
+
+  .container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 75%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
+  .center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+  
+  }
+  
+  .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #803d16;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #df8c40;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }

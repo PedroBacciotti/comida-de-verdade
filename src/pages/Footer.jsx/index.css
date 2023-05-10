@@ -1,0 +1,31 @@
+footer {
+    height: 150px;
+    position: relative;
+    top: 5em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #1da81d86;
+    text-align: center;
+    padding: 5px 0;
+  }
+  
+  footer h1 {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 4%;
+  }
+  #icones2 {
+    position: absolute; /* Permite que a imagem seja posicionada de forma absoluta dentro do rodapé */
+    left: 90%; /* Move a imagem 50% para a direita em relação à largura do rodapé */
+    top: 50%; /* Move a imagem 50% para baixo em relação à altura do rodapé */
+    transform: translate(-50%, -50%); /* Centraliza verticalmente a imagem */
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  #icones2 a {
+    margin: 0 10px;
+  }
