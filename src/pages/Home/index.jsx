@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
+        
         <header classname="align-items-center">
 
 
@@ -45,11 +46,6 @@ const Header = () => {
                     <a><span></span></a>
                 </div>
 
-                <div className='icones'>
-                    <a><img src="img/Facebook.png" alt /></a>
-                    <a><img src="img/Instagram.png" alt /></a>
-                    <a><img src="img/Whatsapp.png" alt /></a>
-                </div>
                       <div class="container">
                 <div class="center">
                     <button class="btn">
