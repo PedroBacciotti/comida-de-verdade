@@ -9,36 +9,36 @@ const Header = () => {
 
 
             <nav className='Menu'>
-                <img src="img/comidavddbranco.png" className="img" alt="" style={{ width: '120px' }} />
+            <Link to="/colabore"><img src="img/comidavddbranco.png"  className="img" alt="" style={{ width: '120px' }} /></Link>
 
                 <ul>
                     <li><a>Agroecologia</a>
                         <ul>
-                            <li><a>Técnicas de manejo e cultivo</a></li>
-                            <li><a>PANCS</a></li>
+                            <li><a href=''>Técnicas de manejo e cultivo</a></li>
+                            <li><a href=''>PANCS</a></li>
                         </ul>
                     </li>
                     <li><a>Plantas medicinais</a>
                         <ul>
-                            <li><a>Plantas brasileiras</a></li>
-                            <li><a>Receitas</a></li>
+                            <li><a href=''>Plantas brasileiras</a></li>
+                            <li><a href=''>Receitas</a></li>
                         </ul>
                     </li>
                     <li><a>Faça parte</a>
                         <ul>
-                            <li><a>Produtor Rural</a></li>
-                            <li><a>Consumidor</a></li>
+                            <li><a href=''>Produtor Rural</a></li>
+                            <li><a href=''>Consumidor</a></li>
                         </ul>
                     </li>
                     <li><a>Onde encontrar</a>
                         <ul>
-                            <li><a>Produtores</a></li>
-                            <li><a>Feiras</a></li>
+                            <li><a href=''>Produtores</a></li>
+                            <li><a href=''>Feiras</a></li>
                         </ul>
                     </li>
                     <li><a>Prestação de contas</a>
                         <ul>
-                            <li><a>Mês/Ano</a></li>
+                            <li><a href=''>Mês/Ano</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -53,7 +53,7 @@ const Header = () => {
                             <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                             <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                         </svg>
-                        <Link to="/teste">
+                        <Link to="/colabore">
                         <span>COLABORE</span>
                         </Link>
                     </button>

@@ -1,0 +1,12 @@
+.titulo {
+    text-align: center;
+    font-size:  100px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8%;
+  }
+  .texto {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;  
+    font-size: 30px;
+    margin-top: 5%;
+  }
